@@ -1,7 +1,5 @@
 from hashlib import sha256
-import os
 
-import pytest
 from fastapi.testclient import TestClient
 
 from main import app
